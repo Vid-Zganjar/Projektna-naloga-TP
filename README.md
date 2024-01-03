@@ -124,8 +124,8 @@ Certainly! Here's the translation in Slovenian:
 - Namestite orodja Amahi, zamenjajte "VAŠA NAMESTITVENA KODA" z generirano kodo:
 
   ```
-  dnf -y install hda-ctl
-  hda-install VAŠA-NAMESTITVENA-KODA
+   dnf -y install hda-ctl
+   hda-install -i YOUR-INSTALL-CODE
   ```
 
 ### 6. Uporaba Amahi
