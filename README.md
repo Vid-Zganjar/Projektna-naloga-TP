@@ -153,5 +153,8 @@ Moj postopek
 - Preko računalnika dostopajte do datotek tako da v raziskovalec vpišete \\hda ter se vpišete z vašim uporabniškim imenom in geslom
 ![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/cba3ca9f-db7c-4415-8718-9a27116caeb1)
 
-  
-
+  ---
+# Povezava na NAS
+- Uporabniško ime: user
+- Geslo: useruser
+  ---
