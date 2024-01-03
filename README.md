@@ -1,6 +1,6 @@
 # Domači NAS na platformi Amahi
 
-![Amahi Logo]([https://www.amahi.org/sites/all/themes/amahi/logo.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amahi.org%2Fpress-kit&psig=AOvVaw18jC_q_GD4ifSffd3EzbK-&ust=1704354010845000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiv4M3bwIMDFQAAAAAdAAAAABAD))
+![Amahi Logo](https://www.amahi.org/assets/press/amahi-logo-a36008f915e1ad5efaaf8e468ac614d888ece91aca11db69666e2055f1307964.png)
 
 ## Opis projekta
 
