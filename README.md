@@ -144,6 +144,14 @@ Moj postopek
 - Prilagodite svoj strežnik preko spletnega vmesnika in raziščite dodatne aplikacije v trgovini Amahi.
   ![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/876a8b20-1514-4479-9fd3-b2a73400c516)
 
-
 ---
+
+### 7. Dostop do datotek
+- Onemogočite DHCP na vašem ruterju, saj bo IP-je dodeljeval NAS.
+![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/bb1c8438-af55-4d13-b2cc-58e6ea018c22)
+
+- Preko računalnika dostopajte do datotek tako da v raziskovalec vpišete \\hda ter se vpišete z vašim uporabniškim imenom in geslom
+![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/cba3ca9f-db7c-4415-8718-9a27116caeb1)
+
+  
 
