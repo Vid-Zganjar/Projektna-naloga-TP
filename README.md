@@ -77,10 +77,26 @@ Certainly! Here's the translation in Slovenian:
 
 ### 3. Razdelitev
 
-- Ročno nastavite particije, da se izognete težavam z LVM postavitvijo.
-- Nastavite particijo za koren (mount točka `/`) in po želji tudi particijo za izmenjavo (SWAP).
+- Razdeljevanje diska v Fedora Serverju je ključnega pomena zaradi pravilnega delovanja Amahi. Izogibajte se izbiri "AVTOMATSKO", saj nastavi LVM postavitev particij, kar lahko povzroči težave pri namestitvi Amahi. Namesto tega sledite tem korakom:
+![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/2166c8ac-00cc-47ae-bb20-384633150806)
 
-*Uporabniki UEFI:* Če uporabljate UEFI, ustvarite particijo Fat32 (512 MB) za `/boot/efi` in preostanek namenite SWAP.
+1. Zagnajte Fedora 25 ISO-datoteko in kliknite na ikono trdega diska pod "SISTEM".
+2. Izberite trdi disk, na katerem želite namestiti sistem, in označite možnost "Konfiguriral bom particioniranje".
+3. Kliknite gumb "DONE", da odprete orodje za particioniranje Anaconda.
+4. V orodju kliknite na minus gumb, da odstranite vse obstoječe particije na trdem disku.
+5. Najdite spustni meni, ga odprite in spremenite iz "LVM" v "STANDARD".
+6. Opomba: particioner bo morda poskušal preklopiti iz "STANDARD" v "AVTOMATSKO", zato boste morda morali večkrat spremeniti to nastavitev.
+
+- Sedaj ustvarite novo particijo:
+![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/fd325129-9cc6-48aa-9fdc-670c3ca78adb)
+
+7. Kliknite gumb "+".
+8. Poiščite "Točka povezave" in nastavite na "/" (koren).
+9. Dodelite večino prostora trdega diska koreninski particiji.
+
+- V primeru vajinega primera s 18 GB diskom za Amahi strežnik, dodelite 14,9 GB koreninski particiji, preostanek pa namenite particiji SWAP.
+
+10. Ko so vse particije nastavljene, kliknite "Done", da se vrnete na prejšnji meni.
 
 ### 4. Začetek Namestitve
 
