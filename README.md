@@ -155,6 +155,6 @@ Moj postopek
 
   ---
 # Povezava na NAS
+- [zganjarnas.mooo.com](http://zganjarnas.mooo.com/)
 - Uporabniško ime: user
 - Geslo: useruser
-  ---
