@@ -135,15 +135,18 @@ Certainly! Here's the translation in Slovenian:
   ```
   https://server-lokalni-ip-naslov
   ```
-
+ ![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/f545a57c-ba7f-44c0-9158-26bc774663b0)
 - Če niste prepričani o IP naslovu strežnika, uporabite:
 
   ```
   ip addr show
   ```
+- Vpišite uporabmiško ime in geslo, ki ste ga nastavili
+![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/61a2bc7d-7dce-4fd8-811d-f8153652f76a)
 
 - Prilagodite svoj strežnik preko spletnega vmesnika in raziščite dodatne aplikacije v trgovini Amahi.
+  ![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/876a8b20-1514-4479-9fd3-b2a73400c516)
+
 
 ---
 
-Prilagodite oblikovanje ali dodajte dodatne podrobnosti, če je potrebno, za vaš GitHub README.
