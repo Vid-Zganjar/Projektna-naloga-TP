@@ -58,13 +58,10 @@ Projekt omogoča vzpostavitev domačega strežnika za shranjevanje podatkov (NAS
 - Za podrobnejša navodila in informacije obiščite [Amahi Wiki](https://wiki.amahi.org/).
 - Pred spreminjanjem konfiguracij se prepričajte, da imate ustrezno znanje in razumevanje, da preprečite morebitno izgubo podatkov ali težave z delovanjem sistema.
 Certainly! Here's the translated version in Slovenian:
-
 ---
-Certainly! Here's the translation in Slovenian:
-
+Moj postopek
 ---
-
-### 1. Moja namestitev NAS strežnika
+### 1. Namestitev NAS strežnika
 
 - Prenesite [Fedora 27 Server ISO](https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/27/Server/x86_64/iso/Fedora-Server-netinst-x86_64-27-1.6.iso):
 
