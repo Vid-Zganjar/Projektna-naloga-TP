@@ -68,15 +68,11 @@ Certainly! Here's the translation in Slovenian:
 
 - Prenesite [Fedora 27 Server ISO](https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/27/Server/x86_64/iso/Fedora-Server-netinst-x86_64-27-1.6.iso):
 
-  ```
-  wget https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-netinst-x86_64-25-1.3.iso
-  ```
-
-- Uporabite Etcher za Linux, da ISO-datoteko naložite na USB ključ velikosti 1 GB.
+- Uporabite rufus, da ISO-datoteko naložite na USB ključ velikosti vsaj 1 GB.
 
 ### 2. Ustvarjanje Amahi Računa
 
-- Med namestitvijo Fedore ustvarite nov račun Amahi.
+- Med namestitvijo Fedore ustvarite nov račun [Amahi](https://www.amahi.org/).
 - Shrani generirano namestitveno kodo in informacije o omrežju.
 
 ### 3. Razdelitev
