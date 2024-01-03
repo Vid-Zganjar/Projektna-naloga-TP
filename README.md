@@ -57,3 +57,27 @@ Projekt omogoča vzpostavitev domačega strežnika za shranjevanje podatkov (NAS
 
 - Za podrobnejša navodila in informacije obiščite [Amahi Wiki](https://wiki.amahi.org/).
 - Pred spreminjanjem konfiguracij se prepričajte, da imate ustrezno znanje in razumevanje, da preprečite morebitno izgubo podatkov ali težave z delovanjem sistema.
+Certainly! Here's the translated version in Slovenian:
+
+---
+
+**Nastavitev Linux NAS z Amahi na Fedora Server 25**
+
+*Opomba: Ta vodnik vam ponuja korak za korakom navodila za namestitev Amahi 10 na Fedora Server 25, s katerim lahko ustvarite svoj Linux NAS.*
+
+### Predpogoji
+
+- Priskrbite si star računalnik ali strežnik, ki ga lahko neprekinjeno napajate.
+- V nasprotnem primeru razmislite o uporabi VPS, če strojna oprema ni na voljo.
+
+### 1. Namestitev Fedora Server 25
+
+- Prenesite ISO sliko Fedora 25 Server z naslednjim ukazom:
+
+  ```
+  wget https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-netinst-x86_64-25-1.3.iso
+  ```
+
+- Uporabite Etcher for Linux, da ISO sliko naložite na 1GB USB ključ.
+
+### 2. Ustvarjanje Amahi računa
