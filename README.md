@@ -102,7 +102,7 @@ Certainly! Here's the translation in Slovenian:
 
 - Izberite "Minimalna Namestitev" pod "Izbira Programske Opreme".
 - Začnite postopek namestitve s klikom na "Začni Namestitev".
-- ##NE NASTAVITE GESLA ROOT!
+- ## NE NASTAVITE GESLA ROOT!
 - Ustvarite uporabnika s katerim se boste prijavili v vaš amahi server
 
 ### 5. Namestitev Amahi
