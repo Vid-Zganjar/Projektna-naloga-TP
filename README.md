@@ -36,7 +36,7 @@ Projekt omogoča vzpostavitev domačega strežnika za shranjevanje podatkov (NAS
 
 1. Sestavite računalnik z navedeno strojno opremo.
 2. Z uporabo orodja Rufus naložite operacijski sistem Fedora 27 na ustrezni disk.
-3. Po namestitvi operacijskega sistema sledite korakom na [Amahi Wiki](https://wiki.amahi.org/index.php/Amahi_11_Upgrade).
+3. Po namestitvi operacijskega sistema sledite korakom na [Amahi Wiki](https://wiki.amahi.org/index.php/Main_Page). V pomoč Vam je lahko tudi ta postopek z [fedoro 25](https://www.addictivetips.com/ubuntu-linux-tips/create-a-linux-nas-with-amahi/).
 4. Generirajte ključ za namestitev Amahi preko spletne strani Amahi.
 5. Na sistem Linux naložite Amahi in aktivirajte NAS s generiranim ključem.
 6. Izključite DHCP strežnik na vašem usmerjevalniku, saj NAS deluje kot DHCP strežnik.
