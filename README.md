@@ -121,7 +121,7 @@ Certainly! Here's the translation in Slovenian:
    rpm -Uvh http://f27.amahi.org/noarch/hda-release-11.0.0-1.noarch.rpm
   ```
 
-- Namestite orodja Amahi, zamenjajte "VAŠA NAMESTITVENA KODA" z generirano kodo:
+- Namestite orodja Amahi, zamenjajte "YOUR-INSTALL-CODE" z generirano kodo:
 
   ```
    dnf -y install hda-ctl
