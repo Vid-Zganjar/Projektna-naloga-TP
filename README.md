@@ -36,7 +36,7 @@ Projekt omogoča vzpostavitev domačega strežnika za shranjevanje podatkov (NAS
 
 1. Sestavite računalnik z navedeno strojno opremo.
 2. Z uporabo orodja Rufus naložite operacijski sistem Fedora 27 na ustrezni disk.
-3. Po namestitvi operacijskega sistema sledite korakom na [Amahi Wiki](https://wiki.amahi.org/index.php/Main_Page). V pomoč Vam je lahko tudi ta postopek z [fedoro 25](https://www.addictivetips.com/ubuntu-linux-tips/create-a-linux-nas-with-amahi/).
+3. Po namestitvi operacijskega sistema sledite korakom na [Amahi Wiki](https://wiki.amahi.org/index.php/Main_Page). V pomoč Vam je lahko tudi ta [video](https://www.addictivetips.com/ubuntu-linux-tips/create-a-linux-nas-with-amahi/).
 4. Generirajte ključ za namestitev Amahi preko spletne strani Amahi.
 5. Na sistem Linux naložite Amahi in aktivirajte NAS s generiranim ključem.
 6. Izključite DHCP strežnik na vašem usmerjevalniku, saj NAS deluje kot DHCP strežnik.
@@ -60,24 +60,84 @@ Projekt omogoča vzpostavitev domačega strežnika za shranjevanje podatkov (NAS
 Certainly! Here's the translated version in Slovenian:
 
 ---
+Certainly! Here's the translation in Slovenian:
 
-**Nastavitev Linux NAS z Amahi na Fedora Server 25**
+---
 
-*Opomba: Ta vodnik vam ponuja korak za korakom navodila za namestitev Amahi 10 na Fedora Server 25, s katerim lahko ustvarite svoj Linux NAS.*
+**Nastavitev Linux NAS-a z Amahi na Fedora Serverju 25**
+
+*Opomba: Ta vodič vam ponuja postopek za namestitev Amahi 10 na Fedora Server 25, da ustvarite svoj Linux NAS.*
 
 ### Predpogoji
 
-- Priskrbite si star računalnik ali strežnik, ki ga lahko neprekinjeno napajate.
-- V nasprotnem primeru razmislite o uporabi VPS, če strojna oprema ni na voljo.
+- Pridobite star računalnik ali strežnik, ki ga lahko neprekinjeno uporabljate.
+- Kot alternativo lahko uporabite VPS, če nimate ustrezne strojne opreme.
 
-### 1. Namestitev Fedora Server 25
+### 1. Namestitev Fedora Serverja 25
 
-- Prenesite ISO sliko Fedora 25 Server z naslednjim ukazom:
+- Prenesite Fedora 25 Server ISO z naslednjim ukazom:
 
   ```
   wget https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-netinst-x86_64-25-1.3.iso
   ```
 
-- Uporabite Etcher for Linux, da ISO sliko naložite na 1GB USB ključ.
+- Uporabite Etcher za Linux, da ISO-datoteko naložite na USB ključ velikosti 1 GB.
 
-### 2. Ustvarjanje Amahi računa
+### 2. Ustvarjanje Amahi Računa
+
+- Med namestitvijo Fedore ustvarite nov račun Amahi.
+- Shrani generirano namestitveno kodo in informacije o omrežju.
+
+### 3. Razdelitev
+
+- Ročno nastavite particije, da se izognete težavam z LVM postavitvijo.
+- Nastavite particijo za koren (mount točka `/`) in po želji tudi particijo za izmenjavo (SWAP).
+
+*Uporabniki UEFI:* Če uporabljate UEFI, ustvarite particijo Fat32 (512 MB) za `/boot/efi` in preostanek namenite SWAP.
+
+### 4. Začetek Namestitve
+
+- Izberite "Minimalna Namestitev" pod "Izbira Programske Opreme".
+- Začnite postopek namestitve s klikom na "Začni Namestitev".
+
+### 5. Namestitev Amahi
+
+- Po namestitvi Fedore zagotovite povezljivost z omrežjem s:
+
+  ```
+  ping google.com -c3
+  ```
+
+- Prenesite in namestite Amahi RPM:
+
+  ```
+  sudo -s
+  rpm -Uvh https://f25.amahi.org/noarch/hda-release-10.0.0-1.noarch.rpm
+  ```
+
+- Namestite orodja Amahi, zamenjajte "VAŠA NAMESTITVENA KODA" z generirano kodo:
+
+  ```
+  dnf -y install hda-ctl
+  hda-install VAŠA-NAMESTITVENA-KODA
+  ```
+
+### 6. Uporaba Amahi
+
+- Dostopajte do spletnega vmesnika svojega Amahi strežnika preko:
+
+  ```
+  https://server-lokalni-ip-naslov
+  ```
+
+- Če niste prepričani o IP naslovu strežnika, uporabite:
+
+  ```
+  ip addr show
+  ```
+
+- Prilagodite svoj strežnik preko spletnega vmesnika in raziščite dodatne aplikacije v trgovini Amahi.
+
+---
+
+Prilagodite oblikovanje ali dodajte dodatne podrobnosti, če je potrebno, za vaš GitHub README.
