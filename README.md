@@ -77,10 +77,10 @@ Certainly! Here's the translation in Slovenian:
 
 ### 3. Razdelitev
 
-- Razdeljevanje diska v Fedora Serverju je ključnega pomena zaradi pravilnega delovanja Amahi. Izogibajte se izbiri "AVTOMATSKO", saj nastavi LVM postavitev particij, kar lahko povzroči težave pri namestitvi Amahi. Namesto tega sledite tem korakom:
+- Razdeljevanje diska v Fedora Serverju je ključnega pomena zaradi pravilnega delovanja Amahi. Izogibajte se izbiri "AVTOMATSKO", saj ta nastavi LVM postavitev particij, kar lahko povzroči težave pri namestitvi Amahi. Namesto tega sledite tem korakom:
 ![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/2166c8ac-00cc-47ae-bb20-384633150806)
 
-1. Zagnajte Fedora 25 ISO-datoteko in kliknite na ikono trdega diska pod "SISTEM".
+1. Zagnajte Fedora 27 ISO-datoteko in kliknite na ikono trdega diska pod "SISTEM".
 2. Izberite trdi disk, na katerem želite namestiti sistem, in označite možnost "Konfiguriral bom particioniranje".
 3. Kliknite gumb "DONE", da odprete orodje za particioniranje Anaconda.
 4. V orodju kliknite na minus gumb, da odstranite vse obstoječe particije na trdem disku.
@@ -102,8 +102,11 @@ Certainly! Here's the translation in Slovenian:
 
 - Izberite "Minimalna Namestitev" pod "Izbira Programske Opreme".
 - Začnite postopek namestitve s klikom na "Začni Namestitev".
+- ##NE NASTAVITE GESLA ROOT!
+- Ustvarite uporabnika s katerim se boste prijavili v vaš amahi server
 
 ### 5. Namestitev Amahi
+![image](https://github.com/Vid-Zganjar/Projektna-naloga-TP/assets/147034349/7acfc3f7-0673-400a-8f0d-c096f569a825)
 
 - Po namestitvi Fedore zagotovite povezljivost z omrežjem s:
 
