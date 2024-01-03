@@ -117,8 +117,8 @@ Certainly! Here's the translation in Slovenian:
 - Prenesite in namestite Amahi RPM:
 
   ```
-  sudo -s
-  rpm -Uvh https://f25.amahi.org/noarch/hda-release-10.0.0-1.noarch.rpm
+   sudo su -
+   rpm -Uvh http://f27.amahi.org/noarch/hda-release-11.0.0-1.noarch.rpm
   ```
 
 - Namestite orodja Amahi, zamenjajte "VAŠA NAMESTITVENA KODA" z generirano kodo:
